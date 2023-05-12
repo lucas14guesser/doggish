@@ -1,0 +1,19 @@
+.container {
+    width: 100%!important;
+    display: flex;
+    margin: 0 auto;
+    flex-wrap: wrap;
+}
+
+.min_height {
+    min-height: 78.6%;
+}
+
+
+.column {
+    flex-direction: column;
+}
+
+
+
+

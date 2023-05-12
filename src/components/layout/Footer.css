@@ -1,0 +1,38 @@
+.footer {
+    background-color: #FFF;
+    color: #222;
+    padding: 1em;
+    text-align: center;
+    font-weight: bold;
+}
+
+.social_list {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+}
+
+
+.social_list svg {
+    font-size: 1.1em;
+    cursor: pointer;
+}
+
+.copy_right {
+    margin-top: .1em;
+}
+
+.copy_right span {
+    font-weight: bold;
+    color: #5DADE2;
+}
+
+.facebook {
+    color: #3b5998;
+    margin: 0 .2em;
+}
+
+.instagram {
+    color: #E4405F;
+    margin: 0 .2em;
+}
