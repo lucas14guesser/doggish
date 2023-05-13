@@ -1,16 +1,15 @@
 .dog_card {
     display: flex;
     flex-wrap: wrap;
-    padding: 2rem;
-    max-width: 1500px;
-    margin-left: 13%;
+    max-width: 100%;
+    margin-left: 5%;;
 }
 
 .dog_card img {
     width: 400px;
-    max-height: 320px;
-    border: 5px solid #5DADE2;
-    border-radius: 1em;
+    height: 300px;
+    border: 10px solid #5DADE2;
+    border-radius: 2em;
     margin: 1em;
 }
 
@@ -18,10 +17,16 @@
     text-align: center;
     margin-top: 2em;
     font-size: 20px;
+    width: 100%;
 }
 
 .principal_dog span {
     color: #FFF;
     padding: 0 .2em;
     background-color: #5DADE2;
+}
+
+.principal_dog p {
+    margin-top: 1em;
+    font-size: 1.2em;
 }

@@ -1,5 +1,3 @@
-import React from 'react'
-
 import './Cachorros.css'
 
 import labrador from '../img/dogs/labrador.png'
@@ -12,14 +10,15 @@ import schnauzer from '../img/dogs/schnauzer.jpg'
 const Cachorros = () => {
   return (
     <div className="principal_dog">
-      <h1><span>Cãeszinhos</span> para adoção:</h1>
+      <h1><span>Cães</span> para adoção:</h1>
+      <p>Clique nos cachorros para saber mais detalhes</p>
       <div className="dog_card">
-        <img src={labrador} alt="labrador" />
-        <img src={husky} alt="husky" />
-        <img src={cocker} alt="cocker" />
-        <img src={pitbull} alt="pitbull" />
-        <img src={dalmata} alt="dalmata" />
-        <img src={schnauzer} alt="schnauzer" />
+        <a href='/labrador_details' className='dog_card'><img src={labrador} alt="labrador" /></a>
+        <a href="/husky_details" className='dog_card' ><img src={husky} alt="husky" /></a> 
+        <a href="/cocker_details" className="dog_card"><img src={cocker} alt="cocker" /></a> 
+        <a href="/pitbull_details" className="dog_card"><img src={pitbull} alt="pitbull" /></a> 
+        <a href="/dalmata_details" className="dog_card"><img src={dalmata} alt="dalmata" /></a> 
+        <a href="/schnauzer_details" className="dog_card"><img src={schnauzer} alt="schnauzer" /></a> 
       </div>
     </div>
 

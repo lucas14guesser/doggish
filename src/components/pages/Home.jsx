@@ -7,7 +7,7 @@ import LinkButtom from '../layout/LinkButtom'
 const Home = () => {
   return (
     <section className="home_layout">
-      <h1>Seja bem-vindo ao <span>Doggish</span></h1>
+      <h1>Seja bem-vindo ao Doggish</h1>
       <LinkButtom to='/dogs' text='Adote um cãozinho' />
       <img src={damaVagabundo} alt="Doggish" />
     </section>

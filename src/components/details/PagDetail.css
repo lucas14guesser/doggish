@@ -1,0 +1,29 @@
+.pag_layout {
+    margin-top: 1em;
+    width: 100%;
+}
+
+.pag_layout h1 {
+    margin-left: 1em;
+    margin-bottom: 1em;
+    font-size: 2.5em;
+}
+
+.dog_img {
+    margin-left: 25%;
+    width: 1000px;
+    height: 600px;
+}
+
+.dog_info h3 {
+    margin-left: 2.2em;
+    margin-bottom: .5em;
+    font-weight: bold;
+}
+
+.dog_info p {
+    margin-left: 3.5em;
+    margin-bottom: .5em;
+    font-size: 1em;
+    font-style: italic;
+}
