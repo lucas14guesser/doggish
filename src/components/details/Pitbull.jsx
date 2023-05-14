@@ -2,6 +2,8 @@ import './PagDetail.css'
 
 import pitbull from '../img/dogs/pitbull.png'
 
+import LinkButton from '../layout/LinkButton'
+
 const Pitbull = () => {
   return (
     <div className="pag_layout">
@@ -9,8 +11,6 @@ const Pitbull = () => {
         <div className='dog_info'>
         <h3>Raça: </h3>
         <p>Pitbull</p>
-        <h3>Idade: </h3>
-        <p>12 Meses</p>
         <h3>Sobre: </h3>
         <p>O Pitbull, ou verdadeiramente conhecido
            como American Pit Bull Terrier (APBT), é um pet extremamente
@@ -21,6 +21,9 @@ const Pitbull = () => {
         <div >
         <img src={pitbull} alt="pitbull" className='dog_img'/>
         </div>
+        <div className="forms">
+          <LinkButton to='/forms' text='Adote agora'/>
+      </div>
         </div>
     </div>
   )

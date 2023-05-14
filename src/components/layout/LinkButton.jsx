@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom'
 
-import './LinkButtom.css'
+import './LinkButton.css'
 
 const LinkButtom = ({to, text}) => {
   return (

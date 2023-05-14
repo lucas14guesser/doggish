@@ -2,6 +2,8 @@ import './PagDetail.css'
 
 import dalmata from '../img/dogs/dalmata.png'
 
+import LinkButton from '../layout/LinkButton'
+
 const Dalmata = () => {
   return (
     <div className="pag_layout">
@@ -9,8 +11,6 @@ const Dalmata = () => {
         <div className='dog_info'>
         <h3>Raça: </h3>
         <p>Dalmata</p>
-        <h3>Idade: </h3>
-        <p>20 Meses</p>
         <h3>Sobre: </h3>
         <p>O Dálmata é um dos mais famosos do mundo! E não falamos
            isso pelo clássico filme que destaca todo o charme das suas
@@ -24,6 +24,9 @@ const Dalmata = () => {
         <div >
         <img src={dalmata} alt="dalmata" className='dog_img'/>
         </div>
+        <div className="forms">
+          <LinkButton to='/forms' text='Adote agora'/>
+      </div>
         </div>
     </div>
   )

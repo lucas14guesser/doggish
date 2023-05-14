@@ -2,6 +2,8 @@ import './PagDetail.css'
 
 import cocker from '../img/dogs/cocker.png'
 
+import LinkButton from '../layout/LinkButton'
+
 const Cocker = () => {
   return (
     <div className="pag_layout">
@@ -9,8 +11,6 @@ const Cocker = () => {
         <div className='dog_info'>
         <h3>Raça: </h3>
         <p>Cocker</p>
-        <h3>Idade: </h3>
-        <p>4 Meses</p>
         <h3>Sobre: </h3>
         <p>Considerado o menor dos cãezinhos spaniels,
            o Cocker Spaniel Americano costuma ser muito
@@ -24,6 +24,9 @@ const Cocker = () => {
         <div >
         <img src={cocker} alt="cocker" className='dog_img'/>
         </div>
+        <div className="forms">
+          <LinkButton to='/forms' text='Adote agora'/>
+      </div>
         </div>
     </div>
   )

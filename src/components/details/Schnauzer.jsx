@@ -2,6 +2,8 @@ import './PagDetail.css'
 
 import schnauzer from '../img/dogs/schnauzer.jpg'
 
+import LinkButton from '../layout/LinkButton'
+
 const Schnauzer = () => {
   return (
     <div className="pag_layout">
@@ -9,8 +11,6 @@ const Schnauzer = () => {
         <div className='dog_info'>
         <h3>Raça: </h3>
         <p>Schnauzer</p>
-        <h3>Idade: </h3>
-        <p>5 Meses</p>
         <h3>Sobre: </h3>
         <p>Sua aparência e tamanho chamam a atenção logo de cara,
            isso porque, o Schnauzer miniatura é um compacto cãozinho
@@ -23,6 +23,9 @@ const Schnauzer = () => {
         <div >
         <img src={schnauzer} alt="schnauzer" className='dog_img'/>
         </div>
+        <div className="forms">
+          <LinkButton to='/forms' text='Adote agora'/>
+      </div>
         </div>
     </div>
   )

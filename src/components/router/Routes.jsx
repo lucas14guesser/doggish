@@ -13,6 +13,9 @@ import Pitbull from '../details/Pitbull'
 import Dalmata from '../details/Dalmata'
 import Schnauzer from '../details/Schnauzer'
 
+import Form from '../form/Form'
+import Success from '../form/Success'
+
 const Routes = () => {
   return (
     <Router>
@@ -41,6 +44,12 @@ const Routes = () => {
           </Route>
           <Route path='/schnauzer_details' >
             <Schnauzer />
+          </Route>
+          <Route path='/forms' >
+            <Form />
+          </Route>
+          <Route path='/success' >
+            <Success />
           </Route>
       </Switch>
       <Footer />
